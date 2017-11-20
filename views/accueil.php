@@ -13,18 +13,23 @@
 			<h2>Tuesday 19th November</h2>
 		</div>
 		<div id="users">
-			<div class="user">
-				<img src="<?=PATH_IMAGES.'solal.jpg'?>">
-				<h3>Solal</h3>
-			</div>
-			<div class="user">
-				<img src="<?=PATH_IMAGES.'jb.jpg'?>">
-				<h3>Jean-B</h3>
-			</div>
-			<div class="user">
-				<img src="<?=PATH_IMAGES.'marc.jpg'?>">
-				<h3>Marc</h3>
-			</div>
+			<a href="?page=applications&name=solal">
+				<div class="user">
+					<img src="<?=PATH_IMAGES.'solal.jpg'?>">
+					<h3>Solal</h3>
+				</div>
+			</a>
+			<a href="?page=applications&name=Jean-B">
+				<div class="user">
+					<img src="<?=PATH_IMAGES.'jb.jpg'?>">
+					<h3>Jean-B</h3>
+				</div>
+			<a href="?page=applications&name=marc">
+				<div class="user">
+					<img src="<?=PATH_IMAGES.'marc.jpg'?>">
+					<h3>Marc</h3>
+				</div>
+			</a>
 		</div>
 	</div>
 	<div id="sensehat">

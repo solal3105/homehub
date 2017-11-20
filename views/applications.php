@@ -1,6 +1,5 @@
 <?php require_once(PATH_VIEWS.'header.php');?>
 	<link href="<?= PATH_CSS ?>applications.css" rel="stylesheet">
-<link href="<?= PATH_CSS ?>acceuil.css" rel="stylesheet">
 </head> 
 
 <!--  Début de la page -->
@@ -44,13 +43,18 @@
 		<div class="user">
 			<img src="<?=PATH_IMAGES.'user.jpg'?>">
 		</div>
+		<h1>Bonjour, <?= $_SESSION['name']; ?></h1>
+		<div class="sensor">
+			<p><i class="fa fa-tint" aria-hidden="true"></i>
+			<?= $humidity ?>%</p>
+		</div>
 		<div class="sensor">
 			<p><i class="fa fa-tachometer" aria-hidden="true"></i>
-			1.03bar</p>
+			<?= $pressure ?>bar</p>
 		</div>
 		<div class="sensor">
 			<p><i class="fa fa-thermometer-three-quarters" aria-hidden="true"></i>
-			19°c</p>
+			<?= $temperature ?>°c</p>
 		</div>
 	</div>
 </div>
