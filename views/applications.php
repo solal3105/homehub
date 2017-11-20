@@ -57,3 +57,4 @@
 
 </body>
 <!--  Pied de page -->
+<?php require_once(PATH_VIEWS."footer.php"); ?>
