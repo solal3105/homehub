@@ -1,0 +1,45 @@
+#content{
+	display: block;
+	margin: 10vh auto;
+	max-width: 1200px;
+	height: 700px;
+
+}
+#colonne_gauche{
+	overflow: auto;
+	background-color: rgba(0,0,0,0.7);
+	margin: auto;
+	max-width: 700px;
+	width: 75%;
+	float: left;
+	height: 700px;
+	padding: 0px 100px;
+
+}
+#colonne_droite{
+  background-color: rgba(0,0,0,0.9);
+  margin: auto;
+  max-width: 300px;
+  width: 25%;
+  float: left;
+  height: 100%;
+
+}
+.icon{
+	width: 28.3%;
+	height: 28.3%;
+	border-radius: 50%;
+	background-color: #fff;
+	display: inline-block;
+	float: left;
+	margin: 2.5%;
+}
+.icon img{
+	width: 100%;
+}
+.fa-long-arrow-left{
+	color: #fff;
+	font-size: 100px;
+	position: relative;
+	right: 0px;
+}
