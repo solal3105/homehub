@@ -13,7 +13,7 @@
 			<h2>Tuesday 19th November</h2>
 		</div>
 		<div id="users">
-			<a href="?page=applications&name=solal">
+			<a href="?page=applications&name=Solal">
 				<div class="user">
 					<img src="<?=PATH_IMAGES.'solal.jpg'?>">
 					<h3>Solal</h3>
@@ -24,7 +24,7 @@
 					<img src="<?=PATH_IMAGES.'jb.jpg'?>">
 					<h3>Jean-B</h3>
 				</div>
-			<a href="?page=applications&name=marc">
+			<a href="?page=applications&name=Marc">
 				<div class="user">
 					<img src="<?=PATH_IMAGES.'marc.jpg'?>">
 					<h3>Marc</h3>
