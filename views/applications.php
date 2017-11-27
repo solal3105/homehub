@@ -11,32 +11,35 @@
 		<img src="back">
 		<div id="icons">
 			<div class="icon">
-				<img src="<?=PATH_IMAGES.'user.png'?>">
+				<i class="fa fa-pencil" aria-hidden="true"></i>
 			</div>
 			<div class="icon">
-				<img src="<?=PATH_IMAGES.'user.png'?>">
+				<i class="fa fa-shopping-basket" aria-hidden="true"></i>
 			</div>
 			<div class="icon">
-				<img src="<?=PATH_IMAGES.'user.png'?>">
+				<i class="fa fa-envelope-o" aria-hidden="true"></i>
 			</div>
 			<div class="icon">
-				<img src="<?=PATH_IMAGES.'user.png'?>">
+				<i class="fa fa-lightbulb-o" aria-hidden="true"></i>
 			</div>
 			<div class="icon">
-				<img src="<?=PATH_IMAGES.'user.png'?>">
+				<i class="fa fa-headphones" aria-hidden="true"></i>
 			</div>
 			<div class="icon">
-				<img src="<?=PATH_IMAGES.'user.png'?>">
+				<i class="fa fa-comments-o" aria-hidden="true"></i>
 			</div>
+			<a href="?page=calculator">
+				<div class="icon">
+					<i class="fa fa-calculator" aria-hidden="true"></i>
+				</div>
+			</a>
 			<div class="icon">
-				<img src="<?=PATH_IMAGES.'user.png'?>">
+				<i class="fa fa-picture-o" aria-hidden="true"></i>
 			</div>
+			<a href="?page=maps">
 			<div class="icon">
-				<img src="<?=PATH_IMAGES.'user.png'?>">
-			</div>
-			<div class="icon">
-				<img src="<?=PATH_IMAGES.'user.png'?>">
-			</div>
+				<i class="fa fa-map" aria-hidden="true"></i>
+			</div></a>
 		</div>
 	</div>
 	<div id="colonne_droite">
