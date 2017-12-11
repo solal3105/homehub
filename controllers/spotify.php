@@ -4,13 +4,13 @@ $pressure=567;
 $temperature=17;
 $iframe=0;
 if ($_SESSION['name']=='Solal') {
- $iframe="<iframe width=\"500\" height=\"500\" src=\"http://www.calculator-1.com/outdoor/?f=000000&r=000000\" scrolling=\"no\" frameborder=\"0\"></iframe>";
+ $iframe="<iframe src=\"https://open.spotify.com/embed/user/solalgendrin/playlist/2NfsrU003QrmvWAjTwwIta\" width=\"300\" height=\"380\" frameborder=\"0\" allowtransparency=\"true\"></iframe>";
 }
 elseif ($_SESSION['name']=='Marc') {
- $iframe="<iframe width=\"500\" height=\"500\" src=\"http://www.calculator-1.com/outdoor/?f=000000&r=000000\" scrolling=\"no\" frameborder=\"0\"></iframe>";
+ $iframe="<iframe src=\"https://open.spotify.com/embed/user/solalgendrin/playlist/5Y8AJIzTe2uDINpVgAN7iJ\" width=\"300\" height=\"380\" frameborder=\"0\" allowtransparency=\"true\"></iframe>";
 }
 elseif ($_SESSION['name']=='Jean-B') {
- $iframe="<iframe width=\"500\" height=\"500\" src=\"http://www.calculator-1.com/outdoor/?f=000000&r=000000\" scrolling=\"no\" frameborder=\"0\"></iframe>";
+ $iframe="<iframe src=\"https://open.spotify.com/embed/user/solalgendrin/playlist/14tW1Q3nZN6xWj42PcLNk9\" width=\"300\" height=\"380\" frameborder=\"0\" allowtransparency=\"true\"></iframe>";
 }
 require_once(PATH_VIEWS.'spotify.php');
 

@@ -33,6 +33,7 @@
   justify-content: space-around;
   background-color: rgba(0,0,0,1);
   float: left;
+  min-height: 600px;
 }
 
 .flex-item {

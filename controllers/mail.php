@@ -2,16 +2,8 @@
 $humidity=84;
 $pressure=567;
 $temperature=17;
-$iframe=0;
-if ($_SESSION['name']=='Solal') {
- $iframe="<iframe width=\"500\" height=\"500\" src=\"http://www.calculator-1.com/outdoor/?f=000000&r=000000\" scrolling=\"no\" frameborder=\"0\"></iframe>";
-}
-elseif ($_SESSION['name']=='Marc') {
- $iframe="<iframe width=\"500\" height=\"500\" src=\"http://www.calculator-1.com/outdoor/?f=000000&r=000000\" scrolling=\"no\" frameborder=\"0\"></iframe>";
-}
-elseif ($_SESSION['name']=='Jean-B') {
- $iframe="<iframe width=\"500\" height=\"500\" src=\"http://www.calculator-1.com/outdoor/?f=000000&r=000000\" scrolling=\"no\" frameborder=\"0\"></iframe>";
-}
+$iframe=
+"<iframe height=\"600\" src=\"https://docs.google.com/document/d/1_XuKRmi1CHa-CM27J0BkyWw9ds-RisVePJtSu2VGbj8/edit?usp=sharing\" width=\"100%\"></iframe>";
 require_once(PATH_VIEWS.'mail.php');
 
 ?>

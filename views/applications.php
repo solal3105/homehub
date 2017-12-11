@@ -8,7 +8,7 @@
 	<div id="container">
 	<ul id="colonne_gauche">  
 		<a href="?page=docs"><li class="flex-item"><i class="fa fa-pencil" aria-hidden="true"></i></li> </a>
-		<a href="?page=mail"><li class="flex-item"><i class="fa fa-envelope-o" aria-hidden="true"></i></li>  </a>
+		<a href="?page=mail"><li class="flex-item"><i class="fa fa-shopping-basket" aria-hidden="true"></i></li>  </a>
 		<a href="?page=keep"><li class="flex-item"><i class="fa fa-lightbulb-o" aria-hidden="true"></i></li>  </a>
 		<a href="?page=spotify"><li class="flex-item"><i class="fa fa-headphones" aria-hidden="true"></i></li>  </a>
 		<a href="?page=chat"><li class="flex-item"><i class="fa fa-comments-o" aria-hidden="true"></i></li>  </a>
