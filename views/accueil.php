@@ -1,6 +1,5 @@
 <?php require_once(PATH_VIEWS.'header.php');?>
 	<link href="<?= PATH_CSS ?>accueil.css" rel="stylesheet">
-<link href="<?= PATH_CSS ?>acceuil.css" rel="stylesheet">
 </head> 
 
 <!--  Début de la page -->
