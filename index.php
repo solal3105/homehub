@@ -1,6 +1,7 @@
 <?php
+
+session_name('HomeHub');
 session_start();
-seesion_name('HomeHub');
 // Initialisation des paramètres du site
 require_once('./config/configuration.php');
 
