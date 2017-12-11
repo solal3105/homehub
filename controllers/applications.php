@@ -6,7 +6,13 @@ if(isset($_GET['name']) && ($_GET['name'] == "Solal" || $_GET['name'] == "Jean-B
 	$_SESSION['name'] = $_GET['name'];
 }
 
-$humidity=84;
+$fileHumidity = fopen(PATH_PYTHON."humidity.txt", "r");
+if($fileHumidity != false) {
+	$humidity = (int) fgets($fileHumidity);
+	echo $humidity;
+}
+
+//$humidity=84;
 $pressure=567;
 $temperature=17;
 

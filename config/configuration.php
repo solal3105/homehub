@@ -8,6 +8,7 @@ define('PATH_MODELS','./models/');
 define('PATH_VIEWS','./views/');
 define('PATH_SCRIPTS','./scripts/');
 define('PATH_ENTITY', './entity/');
+define('PATH_PYTHON', './python/');
 
 //sous dossiers
 define('PATH_CSS', PATH_ASSETS.'css/');
