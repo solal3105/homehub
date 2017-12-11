@@ -10,7 +10,7 @@ if($fileHumidity) {
 
 $filePressure = fopen(PATH_PYTHON."pressure.txt", "r");
 if($filePressure) {
-	$pressure = (int) fgets(filePressure);
+	$pressure = (int) fgets($filePressure);
 	fclose($filePressure);
 	echo $pressure;
 }
