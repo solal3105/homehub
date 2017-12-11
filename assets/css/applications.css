@@ -4,8 +4,6 @@
 	max-width: 90vw;
 	margin: auto;
 	margin-top: 10vh;
-
-
 }
 #colonne_gauche {
   padding: 0;
@@ -59,4 +57,9 @@
 h1{
 	color: #fff;
 	font-size: 40px;
+}
+p{
+  color: #fff;
+  display: block;
+
 }
