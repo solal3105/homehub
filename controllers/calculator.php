@@ -1,16 +1,13 @@
 <?php 
-$humidity=84;
-$pressure=567;
-$temperature=17;
-$iframe=0;
+
 if ($_SESSION['name']=='Solal') {
- $iframe="<iframe width=\"500\" height=\"500\" src=\"http://www.calculator-1.com/outdoor/?f=000000&r=000000\" scrolling=\"no\" frameborder=\"0\"></iframe>";
+ $iframe="<iframe src=\"https://www.desmos.com/scientific\" width=\"100%\" height=\"100%\" frameborder=\"0\" allowtransparency=\"true\"></iframe>";
 }
 elseif ($_SESSION['name']=='Marc') {
- $iframe="<iframe width=\"500\" height=\"500\" src=\"http://www.calculator-1.com/outdoor/?f=000000&r=000000\" scrolling=\"no\" frameborder=\"0\"></iframe>";
+ $iframe="<iframe src=\"https://www.desmos.com/scientific\" width=\"100%\" height=\"100%\" frameborder=\"0\" allowtransparency=\"true\"></iframe>";
 }
 elseif ($_SESSION['name']=='Jean-B') {
- $iframe="<iframe width=\"500\" height=\"500\" src=\"http://www.calculator-1.com/outdoor/?f=000000&r=000000\" scrolling=\"no\" frameborder=\"0\"></iframe>";
+ $iframe="<iframe src=\"https://www.desmos.com/scientific\" width=\"100%\" height=\"100%\" frameborder=\"0\" allowtransparency=\"true\"></iframe>";
 }
 require_once(PATH_VIEWS.'calculator.php');
 

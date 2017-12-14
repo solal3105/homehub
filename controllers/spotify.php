@@ -1,8 +1,5 @@
 <?php 
-$humidity=84;
-$pressure=567;
-$temperature=17;
-$iframe=0;
+
 if ($_SESSION['name']=='Solal') {
  $iframe="<iframe src=\"https://open.spotify.com/embed/user/solalgendrin/playlist/2NfsrU003QrmvWAjTwwIta\" width=\"100%\" height=\"100%\" frameborder=\"0\" allowtransparency=\"true\"></iframe>";
 }
