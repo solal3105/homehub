@@ -11,7 +11,7 @@
 		<a href="?page=mail"><li class="flex-item"><i class="fa fa-shopping-basket" aria-hidden="true"></i></li>  </a>
 		<a href="?page=keep"><li class="flex-item"><i class="fa fa-lightbulb-o" aria-hidden="true"></i></li>  </a>
 		<a href="?page=spotify"><li class="flex-item"><i class="fa fa-headphones" aria-hidden="true"></i></li>  </a>
-		<a href="?page=chat"><li class="flex-item"><i class="fa fa-comments-o" aria-hidden="true"></i></li>  </a>
+		<a href="?page=meteo"><li class="flex-item"><i class="fa fa-sun-o" aria-hidden="true"></i></li>  </a>
 		<a href="?page=calculator"><li class="flex-item"><i class="fa fa-calculator" aria-hidden="true"></i></li></a>
 		<a href="?page=maps"><li class="flex-item"><i class="fa fa-map" aria-hidden="true"></i></li> </a>
 	</ul>

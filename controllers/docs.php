@@ -12,6 +12,6 @@ elseif ($_SESSION['name']=='Marc') {
 elseif ($_SESSION['name']=='Jean-B') {
  $iframe="<iframe src=\"https://docs.google.com/document/d/1ySYGxb2tKY1a8BNG32ItIazkMWsWl7n2ur0JSgN0VV0/edit?usp=sharing\" width=\"100%\"></iframe>";
 }
-require_once(PATH_VIEWS.'chat.php');
+require_once(PATH_VIEWS.'docs.php');
 
 ?>

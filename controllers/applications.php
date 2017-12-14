@@ -26,4 +26,14 @@ if($fileTemperature) {
 	echo $temperature;
 }
 
+if (!isset($humidity)) {
+	$humidity=0;
+}
+if (!isset($pressure)) {
+	$pressure=0;
+}
+if (!isset($temperature)) {
+	$temperature=0;
+}
+
 require_once(PATH_VIEWS.'applications.php');

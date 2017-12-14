@@ -4,10 +4,10 @@
 
 <!--  Début de la page -->
 <body>
-<body>
 	<div id="container">
 	<ul id="colonne_gauche">  
 		<?= $iframe ?>
+		
 	</ul>
 	<div id="colonne_droite">
 		<h1>Hello, <?= $_SESSION['name']; ?></h1>
@@ -21,5 +21,6 @@
 	</div>
 	</div>
 </body>
+
 <!--  Pied de page -->
 <?php require_once(PATH_VIEWS."footer.php"); ?>
