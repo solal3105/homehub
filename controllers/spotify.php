@@ -14,4 +14,3 @@ elseif ($_SESSION['name']=='Jean-B') {
 }
 require_once(PATH_VIEWS.'spotify.php');
 
-?>
