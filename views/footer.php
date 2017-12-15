@@ -16,7 +16,6 @@
 			if((isset($_POST['spotify'])) && ($_POST['spotify']=='fermer')){
 				$_SESSION['affichage']=0;
 			}
-			echo $_SESSION['affichage'];
 			if(((isset($_POST['spotify']))&& $_POST['spotify']=='ouvrir') || ($_SESSION['affichage']==1)){
 				$_SESSION['affichage']=1;
 				echo $spotify;
