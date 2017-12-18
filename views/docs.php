@@ -10,5 +10,6 @@
 		<?= $iframe ?>
 	</div>
 
+</body>
 <!--  Pied de page -->
 <?php require_once(PATH_CONTROLLERS."footer.php"); ?>

@@ -8,6 +8,11 @@
 	<div id="container">
 	<div id="colonne_gauche">  
 		<?= $iframe ?>
+
+		<form action="?page=applications" method="post">
+			<input type="hidden" name="spotify" value="ouvrir">
+			<input type="submit" class="minimize" value="Minimiser">
+		</form>
 	</div>
 
 <!--  Pied de page -->

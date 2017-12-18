@@ -4,7 +4,6 @@
 
 <!--  Début de la page -->
 <body>
-<body>
 	<div id="container">
 	<div id="colonne_gauche">  
 		<?= $iframe ?>
