@@ -10,7 +10,7 @@ function startTime() {
     m = checkTime(m);
     month = checkTime(month);
     document.getElementById('heure').innerHTML =  h + ":" + m;
-    document.getElementById('ddhhyyyy').innerHTML = d + "/" + month;
+    document.getElementById('ddmm').innerHTML = d + "/" + month;
     var t = setTimeout(startTime, 500);
 }
 function checkTime(i) {
@@ -27,7 +27,7 @@ function checkTime(i) {
 	<div id="cadre">
 		<div id="date">
     	<h1 id="heure"></h1>
-        <h2 id="ddhhyyyy"></h2>
+        <h2 id="ddmm"></h2>
 		</div>
 		<div id="users">
 			<a href="?page=applications&name=Solal">
